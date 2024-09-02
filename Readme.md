@@ -1,2 +1,1 @@
-# full backend project
-this is a personal project 
+# my first backend
