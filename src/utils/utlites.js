@@ -7,7 +7,7 @@
 
 // } 
 
-export {asyncHandler}
+export {requestHandler}
 
 // const asyncHandler = (fun)=> async (req,res,next)=>{
 //     try {
