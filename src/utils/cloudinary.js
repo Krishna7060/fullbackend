@@ -22,7 +22,10 @@ import fs from "fs"
             
             
         } catch (error) {
-            fs.unlinkSync(localFilePath)
+            fs.unlinkSync(localFilePath) // remove saved file
+            return null;
             
         }
     }
+
+    export {cloudinary}
